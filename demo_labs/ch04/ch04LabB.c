@@ -2,9 +2,9 @@
 
 int main()
 {
-    char Input = 0;
+    char Input [10] = {0};
     printf("Please enter a character: ");
-    Input = getc(stdin);
+    getc(Input, sizeof(Input), stdin);
     printf("Here is this!: ");
     putc(Input -1, stdout);
 
