@@ -1,5 +1,5 @@
 //Kurtis Mclain
-//Gets the Hypontenuse of a triangle
+//Converts to binary
 //02-05-2019
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
