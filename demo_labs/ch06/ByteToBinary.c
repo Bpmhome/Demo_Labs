@@ -7,16 +7,20 @@
 #include <inttypes.h>
   
 int main()
-{
+{//unassigned integer values being allocated
     uint32_t UserInput = 0;
     uint32_t bitChecker = 1;
-
+    int Counter = 0;
     printf("Please enter a number: ");
     fscanf(stdin, "%u", &UserInput);
     bitChecker = bitChecker << 31;
-    
+    //Pushing to the first bit
     while(bitChecker > 0)
     {
+        if(Counter % 4 == 0)
+        {
+            printf(" ");
+        }
         if((bitChecker & UserInput) == 0 )
         {
             printf("0");
