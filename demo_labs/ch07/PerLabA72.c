@@ -9,8 +9,8 @@ int main()
     char charArray [256] ={0};
     printf("Enter a string");
     scanf("%255[^\n]c", &charArray);
-
-    if((charArray[0]< 32)||(charArray[0]> 126))
+    //Just conditonal statement that prevents non numeric/alphabetic characters
+    if((charArray[0]<= 32)||(charArray[0]>= 126))
     {
         
     }
