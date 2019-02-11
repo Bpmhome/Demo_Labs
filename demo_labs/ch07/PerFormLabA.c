@@ -1,6 +1,7 @@
 //Kurtis Mclain
 //Switch/Case that is functionally a calculator
 //02-08-2019
+//7.3A
 #include <stdio.h>
 
 int main()
