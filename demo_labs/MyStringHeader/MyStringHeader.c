@@ -1,3 +1,6 @@
+//Kurtis Mclain
+//2/12/2019
+//Reverses a string also base for MyStringHeader.h
 #include <stdio.h>
 #include <string.h>
 #include"MyStringHeader.h"
@@ -13,32 +16,32 @@
         //When satisfied, run "Unit Test Code 2.c"
 
 extern int reverse_it(char * forwardString, int strLen)
-{
+{//declaring variables
     
     int ReturnValue = 0;
     char StringArray[256] = {0};
     char ReversedStringArray[256] = {0};
     
     for (int i = 0; i < strlen(forwardString); i++)
-    {
+    {//for loop to  place the value within a new container
         StringArray[i] = forwardString[i];
         
     }
     int counter = strlen(forwardString) - 1;
     for (int i = 0; i < strlen(forwardString); i++)
-    {
+    {//For loop placing the value within the container but essentially backwards
         ReversedStringArray[i] = StringArray[counter];
         counter --;
     }
     if (StringArray != NULL)
     {
         int strLen = strlen(forwardString);
-        if (strLen <=0)
+        if (strLen <=0)//conditional statement which returns error values
         {
             ReturnValue = -2;
         }
         else
-        {
+        {//Prints the string backwards
             printf("Reverse of the string is\n%s\nSize of the string is\n%i\n", ReversedStringArray, strlen(forwardString));
         }
     }
