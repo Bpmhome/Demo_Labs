@@ -1,0 +1,22 @@
+Prompt #1
+First thing I've done is add my headers:
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+This might be updated depending on what happens later down the road.
+I created my variables and have inserted "The quick brown fox jumps over the lazy dog" to be my base string
+Created encryption with for loop that adds 3 to the ASCII value for the main string
+Gathered input string from user and checked using strcmp to compare to the decrypt key input
+This results in an if else statement which will decrypt or just carry on into an error message and the program will stop
+Trying to remove the substring and ran into an issue. Will address when fixed but currently using strcat to remove
+Using strcmp I managed to compare winnings strings and pass through the game.
+Comment the heck outta this.
+
+Prompt #4
+After including the headers I then went ahead and created my encryption/decryption
+With a bit of working I realized that I was starting to get a lot of errors which were caused by a missing ampersand
+Created a simple user menu to allow the user to choose what they want to do
+Created a function that'll take user input and check the location of it and put it in Roman
+Created some error handling that'll stop excessive input of certain variables
+created a function that'll convert to decimal based off of input
+commented

@@ -1,0 +1,18 @@
+Prompt #1
+I'll be placing my own text line which will be  “The quick brown fox jumps over the lazy dog” into str1
+Using a simple encryption key have the string and user input be increased by 3
+Using the same encryption method have the input of "idf" display the strings
+Make a bit of code to take out whatever input from the string and change the value to the remainder
+Using a second strstr have the user input a string again and see if it finds another occurence
+After that print whatever else is left
+Make a form of comparison in order to allow win condition
+Comment LIKE A MAD MAN
+
+Prompt #4
+I'll be creating a program that'll take numeral and Roman numeral input and convert it to either decimal or Roman
+Make a key that doesn't really encrypt but it is better as a password for this. Regardless will prevent user.
+Create a menu for the user to choose what they plan to convert.
+Make some form of loop or recursion that'll pass variable through and convert
+Print that information
+Make some error handling to prevent people from ruining my life
+Comment like my life depends on it.
