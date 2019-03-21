@@ -1,7 +1,7 @@
 //Kurtis Mclain
 //03-18-2019
 //Prompt 4
-//Asks users to enter and destroy a string with substrings
+//Converts Roman to decimal and vice versa
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
@@ -27,14 +27,14 @@ int main()
     
     printf("\nPlease choose one of the following options.\n[1]To convert to Roman Numeral.\n[2]To convert to Decimal\n");
     scanf("%i", &Number);
-    if (Number == 1)
+    if (Number == 1)//checks input
     {
         printf("\nPlease enter your value you'd like to have converted\n");
         scanf("%i",&Number);
-        displayRoman(Number);
+        displayRoman(Number);//Converts to Roman
         return 0;
     }
-    else if (Number == 2)
+    else if (Number == 2)//checks input
     {
         printf("\nPlease enter your value you'd like to have converted\n");
         scanf("%s", &strRoman);
@@ -43,7 +43,7 @@ int main()
        if(strRoman[i] != 'I' && strRoman[i] != 'V' && strRoman[i] != 'X'
            && strRoman[i] != 'L' && strRoman[i] != 'C')
        {
-           printf("Why do you suck?\n");
+           printf("Bad Input\n");
            return 0;
        }
        else if((strRoman[i] == 'I' && strRoman[i+1] == 'I' && strRoman[i-1] == 'I' && strRoman[i+2] == 'I')||
@@ -56,7 +56,7 @@ int main()
            return 0;
        }
     }
-        displayDec(strRoman);
+        displayDec(strRoman);//converts to decimal
         return 0;
     }
     else
